@@ -1,0 +1,405 @@
+h2.title {
+  color: #1f3345;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2.title span {
+  color: #ed6508;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 90%;
+}
+
+#sidebarMenu {
+  left: -111%;
+  width: calc(100vw - 0px);
+}
+
+/*header*/
+header {
+  opacity: 1;
+  padding: 15px 0px;
+}
+
+header .container .mobile .logo img {
+  max-width: 155px;
+}
+
+header .container .mobile .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .mobile .info .contact .nav label img {
+  padding: 7px;
+  border: 1px solid #ffffff;
+}
+
+header .container .mobile .info .contact .nav #sidebarMenu {
+  padding: 15px;
+}
+
+header .container .mobile .info .contact .nav #sidebarMenu ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header .container .mobile .info .contact .nav #sidebarMenu .recall button {
+  width: 100%;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+header .container .mobile .info .language ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+header .container .mobile .info .language ul li:nth-child(1) {
+  padding-right: 12px;
+}
+
+header .container .mobile .info .language ul .active {
+  color: #ed6508;
+}
+
+header .container .mobile .info .language ul li a {
+  color: #ffffff;
+}
+
+/*header*/
+.section-1 {
+  background-size: cover;
+}
+
+.section-1 .container-fluid .container .baner_content {
+  max-width: 100%;
+  margin-left: 0px;
+  text-align: center;
+}
+
+.section-1 .container-fluid .container .baner_content p {
+  margin-bottom: 1rem;
+}
+
+.section-1 .container-fluid .container .baner_content button {
+  margin: 0 auto;
+}
+
+.section-category {
+  background-size: cover;
+}
+
+.section-category .container-fluid .container .row .baner_content {
+  max-width: 100%;
+  margin-left: 0px;
+  text-align: center;
+  height: 100%;
+}
+
+.section-category .container-fluid .container .row .baner_content p {
+  margin-bottom: 1rem;
+}
+
+.section-category .container-fluid .container .row .baner_content button {
+  margin: 0 auto;
+}
+
+/*footer*/
+footer::before {
+  background: url(/img/site/ornament.png) #ffffff;
+  content: '';
+  position: absolute;
+  top: -48px;
+  width: 100%;
+  height: 48px;
+  background-size: cover;
+}
+
+footer .logo {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .form {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+footer .form h3 {
+  text-align: center;
+}
+
+footer .form form button {
+  padding: 0px;
+}
+
+footer .info {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+footer .info h3 {
+  text-align: center;
+}
+
+footer .info ul li span {
+  padding-right: 40px;
+}
+
+footer .info ul .social {
+  padding-left: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .info ul .social a:first-child {
+  padding-left: 0px;
+}
+
+/*footer*/
+/*about-us*/
+.about-us {
+  padding: 160px 15px 0px;
+}
+
+.about-us .row .data .total {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.about-us .row .data .total p {
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.about-us .row .data .item {
+  padding-left: 15px !important;
+}
+
+.about-us .row .data .item a h5 {
+  width: 100%;
+}
+
+/*about-us*/
+/*advantages*/
+.advantages {
+  padding: 170px 15px;
+  -webkit-clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+          clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+}
+
+.advantages .info .item {
+  max-width: 100%;
+  margin-right: 0px;
+}
+
+.advantages .video {
+  min-height: 400px;
+  padding-left: 0px !important;
+}
+
+.advantages .video iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.advantages .video .share {
+  max-width: 100% !important;
+}
+
+/*advantages*/
+/*building*/
+.building {
+  padding: 30px 15px;
+}
+
+.building .row .title {
+  margin-bottom: 20px;
+}
+
+.building .row span {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+/*building*/
+/*works*/
+.works {
+  padding: 30px 15px;
+}
+
+.works .row .title {
+  margin-bottom: 20px;
+}
+
+.works .row span {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.works .list button {
+  margin-top: 10px;
+}
+
+/*works*/
+/*partners*/
+.partners .row .title {
+  margin-bottom: 20px;
+}
+
+.partners .row span {
+  padding-left: 0px;
+}
+
+/*partners*/
+/*certificates*/
+.certificates .row div {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.certificates .row div span {
+  margin-bottom: 10px;
+}
+
+/*certificates*/
+/*about-us-full*/
+.about-us-full {
+  padding: 30px 15px;
+}
+
+.about-us-full .history {
+  height: 400px;
+}
+
+.about-us-full .title {
+  margin-bottom: 30px;
+}
+
+.about-us-full .arrows {
+  margin-top: 20px;
+}
+
+.about-us-full .about-slide {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.about-us-full .about-slide .item .title {
+  margin-bottom: 30px;
+}
+
+/*about-us-full*/
+.team {
+  padding: 30px 15px;
+}
+
+.team .title {
+  margin-bottom: 30px;
+}
+
+.map {
+  padding: 30px 0px;
+}
+
+.map .container .row .map-work {
+  margin-bottom: 30px;
+}
+
+.map .container .row .catalog-work {
+  padding-left: 0px;
+}
+
+.map .container .row .catalog-work .title {
+  margin-bottom: 30px;
+}
+
+.map .container .row .catalog-work p {
+  margin-bottom: 30px;
+}
+
+.reviews {
+  padding: 30px 15px;
+}
+
+.reviews .row .list-reviews {
+  margin-top: 30px;
+}
+
+.about footer {
+  margin-top: 48px;
+}
+
+.profit {
+  padding: 30px 15px;
+}
+
+.profit .row .title {
+  margin-bottom: 30px;
+}
+
+.conditions {
+  padding: 30px 15px;
+}
+
+.recall-me {
+  padding: 30px 15px;
+}
+
+.recall-me .list {
+  margin-right: 0px;
+  max-width: 100%;
+}
+
+.recall-me .form-recall {
+  margin-left: 0px;
+  max-width: 100%;
+}
+
+.constuction {
+  padding: 30px 15px;
+}
+
+.constuction .container .row .title {
+  margin-bottom: 30px;
+}
+
+.constuction .container .row .list .item .name {
+  padding: 15px;
+}
+/*# sourceMappingURL=screen768.css.map */

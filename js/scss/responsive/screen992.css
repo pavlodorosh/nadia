@@ -1,0 +1,236 @@
+h2.title {
+  color: #1f3345;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2.title span {
+  color: #ed6508;
+  font-size: 30px;
+}
+
+/*header*/
+header .container .row .header_top .navigation .navbar #navbarContent .navbar-nav .nav-item {
+  padding: 0px;
+}
+
+header .container .row .header_top .navigation .navbar #navbarContent .navbar-nav .nav-item .nav-link {
+  font-size: 15px;
+}
+
+/*header*/
+.section-1 {
+  background-size: cover;
+  padding-top: 18px;
+}
+
+.section-1 .container-fluid .container .row .baner_content {
+  max-width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.section-1 .container-fluid .container .row .baner_content button {
+  margin: 0 auto;
+}
+
+.section-category {
+  background-size: cover;
+  padding-top: 18px;
+}
+
+.section-category .container-fluid .container .row .baner_content {
+  max-width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.section-category .container-fluid .container .row .baner_content button {
+  margin: 0 auto;
+}
+
+/*about-us*/
+.about-us {
+  padding: 160px 15px 0px;
+}
+
+.about-us .row .data .total {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+
+.about-us .row .data .total p {
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.about-us .row .data .item {
+  padding-left: 15px !important;
+}
+
+.about-us .row .data .item h5 {
+  width: 100%;
+}
+
+/*about-us*/
+/*advantages*/
+.advantages {
+  padding: 170px 15px;
+  -webkit-clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+          clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+}
+
+.advantages .info .item {
+  max-width: 100%;
+  margin-right: 0px;
+}
+
+.advantages .video {
+  min-height: 400px;
+  padding-left: 0px !important;
+}
+
+.advantages .video iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.advantages .video .share {
+  max-width: 100% !important;
+}
+
+/*advantages*/
+.building .row .title {
+  margin-bottom: 20px;
+}
+
+.building .row span {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.works .row .title {
+  margin-bottom: 20px;
+}
+
+.works .row span {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+.partners .row .title {
+  margin-bottom: 20px;
+}
+
+.partners .row span {
+  padding-left: 0px;
+}
+
+.certificates .row div {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.certificates .row div span {
+  margin-bottom: 10px;
+}
+
+/*footer*/
+footer .form form button {
+  padding: 0px;
+}
+
+footer .info ul li span {
+  padding-right: 40px;
+}
+
+/*footer*/
+.about-us-full {
+  padding: 60px 15px;
+}
+
+.about-us-full .title {
+  margin-bottom: 30px;
+}
+
+.about-us-full .about-slide .item .title {
+  margin-bottom: 30px;
+}
+
+.team {
+  padding: 60px 15px;
+}
+
+.team .title {
+  margin-bottom: 60px;
+}
+
+.map {
+  padding: 60px 0px;
+}
+
+.map .container .row .catalog-work .title {
+  margin-bottom: 30px;
+}
+
+.map .container .row .catalog-work p {
+  margin-bottom: 30px;
+}
+
+.reviews {
+  padding: 60px 15px;
+}
+
+.reviews .row .list-reviews {
+  margin-top: 60px;
+}
+
+.about .certificates {
+  padding: 230px 15px 150px;
+}
+
+.profit {
+  padding: 60px 15px;
+}
+
+.profit .row .title {
+  margin-bottom: 30px;
+}
+
+.constuction {
+  padding: 60px 15px;
+}
+
+.constuction .container .row .title {
+  margin-bottom: 30px;
+}
+
+.constuction .container .row .list .item .name {
+  padding: 15px 30px;
+}
+
+.conditions {
+  padding: 60px 15px;
+}
+
+.recall-me {
+  padding: 60px 15px;
+}
+
+.recall-me .list {
+  max-width: 100%;
+  margin-right: 0px;
+}
+
+.recall-me .form-recall {
+  margin-left: 0px;
+  max-width: 100%;
+}
+/*# sourceMappingURL=screen992.css.map */

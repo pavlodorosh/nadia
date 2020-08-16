@@ -1,0 +1,10 @@
+{
+	"name": "star",
+	"host": "konsuelo.ftp.tools",
+	"protocol": "ftp",
+	"port": 21,
+	"username": "konsuelo_beta",
+	"password": "8PD47oeeBDl3",
+	"remotePath": "./",
+	"uploadOnSave": true
+} 

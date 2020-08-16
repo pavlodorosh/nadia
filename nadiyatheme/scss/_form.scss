@@ -1,0 +1,214 @@
+/* FORMS */
+label {
+  color: #0c99c8;
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 30px;
+  vertical-align: middle;
+}
+select {
+    background: url("../images/icon/down.png") no-repeat 95% 55% rgba(156, 189, 18, 0.38);
+    cursor: pointer;
+}
+ textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+  &.form-control {
+    height: 150px;
+  }
+}
+input[type="submit"] {
+  display: inline-block;
+  background: #9cbd12;
+  color: #FFF;
+  font-size: 1em;
+  padding: 0.6em 2em;
+  @include transition(all 0.5s);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  &:hover {
+    background: #0c99c8;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background: #9cbd12;
+  color: #FFF;
+  font-size: 1em;
+  @include transition(all 0.5s);
+  text-transform: uppercase;
+  border-width: 0;
+  border-radius: 0;
+  outline: none;
+  padding: 0.6em 2em;
+  &:hover {
+    background: #0c99c8;
+  }
+}
+
+.btn-blue {
+  display: inline-block;
+  background: #003663;
+  color: #FFF;
+  font-size: 1em;
+  @include transition(all 0.5s);
+  border-width: 0;
+  border-radius: 0;
+  outline: none;
+  padding: 0.6em 2em;
+  &:hover, &:focus {
+    color: #fff;
+    background: #9cbd12;
+    text-decoration: none;
+  }
+}
+
+.form-control {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #000;
+  background: rgba(156, 189, 18, 0.38);
+  border: solid 1px #9cbd12;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+.form-control:focus {
+  border-color: #9cbd12;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+
+/* checkbox */
+.checkbox {
+  padding-left: 7px;
+}
+.checkbox i {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  display: block;
+  width:20px;
+  height:20px;
+  outline: none;
+  border: 2px solid #0c99c8;
+}
+.checkbox input + i:after {
+  content: '';
+  background: url("../images/icon/check.png") no-repeat 1px 2px;
+  top: -1px;
+  left: -1px;
+  width: 15px;
+  height: 15px;
+  font: normal 12px/16px FontAwesome;
+  text-align: center;
+}
+.checkbox input + i:after {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+}
+.checkbox input {
+  position: absolute;
+  left: -9999px;
+}
+.checkbox input:checked + i:after {
+  opacity: 1;
+}
+
+
+/* CONTACT */
+.contact-details .form-control {
+  width: 100%;
+  border: 1px solid #E2E0ED;
+  margin-bottom: 1.5em;
+  color: #000;
+  background: #fff;
+  outline: none;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+  padding: 4px 10px;
+}
+.contact-details .form-control:hover{
+  border: 1px solid #0c99c8;
+}
+
+.contact-details {
+  margin-top: 2em;
+}
+.contact-details form input[type="submit"] {
+  font-weight: 400;
+  color:#fff;
+  background:#0c99c8;
+  outline: none;
+  border:none;
+  font-size: 1em;
+  padding: 0.6em 3em;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+.contact-details form input[type="submit"]:hover{
+  background:#9cbd12;
+}
+.contact-details h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 1em;
+  color: #0c99c8;
+}
+.contact-details p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #555;
+}
+
+
+/* TABLE */
+.table>thead>tr>th {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f4fbfd;
+  border: 1px solid #d7e7ec;
+}
+.table>thead:first-child>tr:first-child>th {
+  border-top: 1px solid #d7e7ec;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+  background-color: #f4fbfd;
+  border: 1px solid #d7e7ec;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+.table-striped td {
+  text-align: center;
+}

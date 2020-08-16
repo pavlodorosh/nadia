@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"/>
+      <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+      <link rel="stylesheet" type="text/css" href="css/anicollection.css"/>
+      <link rel="stylesheet" type="text/css" href="scss/style.css"/>
+      <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css"/>
+      <link rel="stylesheet" type="text/css" href="slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+   </head>
+   <body>
+      <header>
+         <div class="container">
+            <div class="row d-lg-flex d-none">
+               <div class="logo col-xl-3 col-lg-3 col-md-3 p-0">
+                  <img class="img-fluid" alt="" src="img/logo.png">
+               </div>
+               <div class="header_top col-xl-9 col-lg-9 col-md-9">
+                  <div class="row">
+                     <div class="fix info col-xl-12">
+                        <div class="contact">
+                           <a href="tell:+38 (098) 194-19-78">+38 (098) 194-19-78</a>
+                        </div>
+                        <div class="recall">
+                           <!-- Button trigger modal -->
+                           <button type="button" data-type="diagonal_swipe_leftin" class="btn" data-toggle="modal" data-target="#exampleModal">
+                           Замовити дзвінок
+                           </button>
+                        </div>
+                        <div class="language">
+                           <ul class="list-unstyled">
+                              <li class="active">UA</li>
+                              <li><a href="">RU</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="navigation col-12">
+                        <nav class="navbar navbar-expand-md ">
+                           <div id="navbarContent" class="collapse navbar-collapse">
+                              <ul class="navbar-nav">
+                                 <li class="nav-item dropdown megamenu">
+                                    <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle ">Каталог</a>
+                                    <div aria-labelledby="megamneu" class="dropdown-menu">
+                                       <div class="container">                                         
+                                             <ul class="list-unstyled">
+                                                <li class="nav-item"><a href="" class="nav-link">
+                                                   <img alt="" src="img/icon/IMG1.png">
+                                                   <span>
+                                                      Алюмінієві конструкції
+                                                   </span>
+                                                   </a>
+                                                </li>
+                                                <li class="nav-item"><a href="" class="nav-link">
+                                                   <img alt="" src="img/icon/IMG2.png">
+                                                   <span>
+                                                      Вентильовані фасади
+                                                   </span>
+                                                   </a>
+                                                </li>
+                                                <li class="nav-item"><a href="" class="nav-link">
+                                                   <img alt="" src="img/icon/IMG3.png">
+                                                   <span>
+                                                      Цільноскляні конструкції
+                                                   </span>
+                                                   </a>
+                                                </li>
+                                                <li class="nav-item"><a href="" class="nav-link">
+                                                   <img alt="" src="img/icon/IMG4.png">
+                                                   <span>
+                                                      Металопластикові конструкції
+                                                   </span>
+                                                   </a>
+                                                </li>
+                                                <li class="nav-item"><a href="" class="nav-link">
+                                                   <img alt="" src="img/icon/IMG5.png">
+                                                   <span>
+                                                      Підвісні стелі
+                                                   </span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          
+                                       </div>
+                                    </div>
+                                 </li>
+                                 <li class="nav-item"><a href="" class="nav-link">Про компанію</a></li>
+                                 <li class="nav-item"><a href="" class="nav-link">Наші проекти</a></li>
+                                 <li class="nav-item"><a href="" class="nav-link">Новини</a></li>
+                                 <li class="nav-item"><a href="" class="nav-link">Контакти</a></li>
+                                 <li class="nav-item"><a href="" class="nav-link">Співпраця</a></li>
+                              </ul>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mobile d-lg-none d-flex">
+               <div class="logo col-6">
+                  <img alt="" src="img/logo.png">
+               </div>
+               <div class="info col-6">
+                  <div class="contact">
+                    <div class="nav">
+                        <input type="checkbox" class="openSidebarPhone" id="openSidebarPhone">
+                        <label for="openSidebarPhone" class="sidebarIconToggle">
+                            <img alt="" src="img/icon/phone.svg">
+                        </label>
+                        <div id="sidebarMenu">
+                            <ul class="list-unstyled">
+                                <li><a href="tell:+380981941978"><img alt="" src="img/icon/tel.png"> +38 (098) 194-19-78</a></li>
+                            </ul>                               
+                           <div class="recall">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                            Замовити дзвінок
+                            </button>
+                         </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="language">
+                     <ul class="list-unstyled">
+                        <li class="active">UA</li>
+                        <li><a href="">RU</a></li>
+                     </ul>
+                  </div>
+                  <div class="nav">
+                     <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+                     <label for="openSidebarMenu" class="sidebarIconToggle">
+                        <div class="spinner diagonal part-1"></div>
+                        <div class="spinner horizontal"></div>
+                        <div class="spinner diagonal part-2"></div>
+                     </label>
+                     <div id="sidebarMenu">
+                        <ul class="sidebarMenuInner">
+                           <li><a href="">Про компанію</a></li>
+                           <li class="nav-item dropdown megamenu">
+                            <a id="megamneu" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle ">Каталог</a>
+                            <div aria-labelledby="megamneu" class="dropdown-menu">
+                               <div class="container">
+                                  <div class="row">
+                                     <ul class="list-unstyled">
+                                        <li class=""><a href="" class="">
+                                           <span>
+                                           алюмінієві
+                                           конструкції
+                                           </span>
+                                           </a>
+                                        </li>
+                                        <li class=""><a href="" class="">
+                                           <span>
+                                           вентильовані
+                                           фасади
+                                           </span>
+                                           </a>
+                                        </li>
+                                        <li class=""><a href="" class="">
+                                           <span>
+                                           цільноскляні
+                                           конструкції
+                                           </span>
+                                           </a>
+                                        </li>
+                                        <li class=""><a href="" class="">
+                                           <span>
+                                           підвісні
+                                           стелі
+                                           </span>
+                                           </a>
+                                        </li>
+                                        <li class=""><a href="" class="">
+                                           <span>
+                                           металопластикові
+                                           конструкції
+                                           </span>
+                                           </a>
+                                        </li>
+                                     </ul>
+                                  </div>
+                               </div>
+                            </div>
+                         </li>
+                           <li><a href="">Наші проекти</a></li>
+                           <li><a href="">Новини</a></li>
+                           <li><a href="">Контакти</a></li>
+                           <li><a href="">Співпраця</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- /header -->
+      <div class="section-1">
+         <div class="container-fluid p-0">   
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <!-- Slide One - Set the background image for this slide in the line below -->
+              <div class="carousel-item active" style="background-image: url('/img/site/ABU_5669.jpg')">
+               <div class="container">
+                  <div class="baner_content wow fadeInUp data-wow-duration="2s">
+                     <h2>
+                        Виготовлення та монтаж алюмінієвих конструкцій
+                     </h2>
+                     <p>
+                        Початок роботи з формування позиції забеспечує та допомагає для укріплення нових пропозицій
+                     </p>
+                     <button data-type="diagonal_swipe_leftsl" class="btn">
+                     ОФОРМИТИ КОНСУЛЬТАЦІЮ
+                     </button>
+                  </div>
+               </div> 
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+              <!-- Slide Two - Set the background image for this slide in the line below -->
+              <div class="carousel-item" style="background-image: url('/img/site/section_bg.jpg')">
+               <div class="container">
+                  <div class="baner_content wow fadeInLeft" data-wow-duration="2s">
+                     <h2>
+                        Виготовлення та монтаж алюмінієвих конструкцій
+                     </h2>
+                     <p>
+                        Початок роботи з формування позиції забеспечує та допомагає для укріплення нових пропозицій
+                     </p>
+                     <button data-type="diagonal_swipe_leftsl" class="btn">
+                     ОФОРМИТИ КОНСУЛЬТАЦІЮ
+                     </button>
+                  </div>
+               </div>
+              </div>
+            </div>
+          </div>         
+            <!-- <div class="container">
+               <div class="row">
+                  <div class="baner_content wow fadeInLeft" data-wow-duration="2s">
+                     <h2>
+                        Виготовлення та монтаж алюмінієвих конструкцій
+                     </h2>
+                     <p>
+                        Початок роботи з формування позиції забеспечує та допомагає для укріплення нових пропозицій
+                     </p>
+                     <button>
+                     ОФОРМИТИ КОНСУЛЬТАЦІЮ
+                     </button>
+                  </div>
+               </div>
+            </div> -->
+         </div>
+      </div>
+      <div class="content">
+      <div class="container-fluid  about-us">
+         <div class="container">
+            <div class="row">
+               <h2 class="title">ПРО <span>КОМПАНІЮ</span></h2>
+               <div class="data">
+                  <div class="total col-xl-2 col-12">
+                     <span class="number plus">250 +</span>
+                     <p>кількість завершених проектів
+                        нашою компанією
+                     </p>
+                     <span class="number">35</span>
+                     <p>кількість міст України, де
+                        встановлено наші об’єкти
+                     </p>
+                  </div>
+                  <div class="item col-xl-2 col-6 wow fadeInRight" data-wow-duration="2s" data-anijs="if: scroll, on: window, do: swing animated, before: scrollReveal">
+                     <img alt="" src="img/icon/1.png">
+                     <a href="/"><h5>алюмінієві конструкції
+                     </h5></a>
+                     <p>
+                        Кожен з нас розуміє очевидну
+                        річ: що склалася структура
+                        організації безпосередньо
+                        залежить від системи масової
+                        участі. 
+                     </p>
+                  </div>
+                  <div class="item col-xl-2 col-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                     <img alt="" src="img/icon/2.png">
+                     <a href="/"><h5>вентильовані фасади
+                     </h5></a>
+                     <p>
+                        А ще ключові особливості
+                        структури проекту перетворені
+                        на посміховисько, хоча саме їх 
+                        існування приносить безсумнівну
+                        користь суспільству 
+                     </p>
+                  </div>
+                  <div class="item col-xl-2 col-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                     <img alt="" src="img/icon/3.png">
+                     <a href="/"><h5>цільноскляні конструкції
+                     </h5></a>
+                     <p>
+                        Кожен з нас розуміє очевидну
+                        річ: що склалася структура
+                        організації безпосередньо
+                        залежить від системи масової
+                        участі. 
+                     </p>
+                  </div>
+                  <div class="item col-xl-2 col-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
+                     <img alt="" src="img/icon/4.png">
+                     <a href="/"><h5>підвісні стелі
+                     </h5></a>
+                     <p>
+                        А ще ключові особливості
+                        структури проекту перетворені
+                        на посміховисько, хоча саме їх 
+                        існування приносить безсумнівну
+                        користь суспільству
+                     </p>
+                  </div>
+                  <div class="item col-xl-2 col-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.8s">
+                     <img alt="" src="img/icon/5.png">
+                     <a href="/"><h5>металопластикові конструкції
+                     </h5></a>
+                     <p>
+                        А ще ключові особливості
+                        структури проекту перетворені
+                        на посміховисько, хоча саме їх 
+                        існування приносить безсумнівну
+                        користь суспільству
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid advantages">
+         <div class="container">
+            <div class="row">
+               <h2 class="title wow fadeInRight" data-wow-duration="2s" data-wow-offset="300">Думаємо про репутацію<br>
+                  та відповідаємо за якість
+               </h2>
+               <div class="col-12 info">
+                  <div class="row">
+                     <div class="col-xl-6">
+                        <div class="row">
+                           <p>
+                              Ми цінуємо наших замовників, і намагаємося всі їх фантазії втілити в життя,<br>
+                              в той же час робимо акцент на співвідношення ціна/якість.
+                           </p>
+                           <div class="col-12">
+                              <div class="row">
+                                 <div class="item col-xl-6">
+                                    <h5>Ваше завдання буде вирішене
+                                       в короткий термін.
+                                    </h5>
+                                    <p>У нас розвинута мережа складів та
+                                       по всій території України  та маємо в
+                                       наявності готові продукцію
+                                    </p>
+                                 </div>
+                                 <div class="item col-xl-6">
+                                    <h5>Ви будете впевнені
+                                       в надійності споруд
+                                    </h5>
+                                    <p>Якість використовуваних матеріалів
+                                       відповідає нормам ДСТУ та міжнародним
+                                       стандартам ISO, DIN, EN.
+                                    </p>
+                                 </div>
+                                 <div class="item col-xl-6">
+                                    <h5>Ви будете забезпечені повною
+                                       підтримкою
+                                    </h5>
+                                    <p>Ми надаємо повне гарантійне та
+                                       післягарантійне сервісне обслуго-
+                                       вування. Всі турботи бере на себе
+                                       наша сервісна служба.
+                                    </p>
+                                 </div>
+                                 <div class="item col-xl-6">
+                                    <h5>На вас працюватимуть лише
+                                       професіонали
+                                    </h5>
+                                    <p>Кваліфіковані монтажні бригади з
+                                       наявністю будівельної ліцензії, які
+                                       проходять регулярні навчання.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-6 video">                               
+                        <iframe width="554" height="314" src="https://www.youtube.com/embed/3thdGvDB7O8?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                               
+                        <div class="share">
+                           <div class="social-share">
+                              <a class="item" href="">
+                                 <object type="image/svg+xml" data="img/icon/calculator-alt.svg">
+                                  </object>
+                                 </a>
+                              <a class="item whatsapp" href="">
+                                 <object type="image/svg+xml" data="img/icon/whatsapp.svg">
+                                 </object>
+                              </a>
+                              <a class="item" href="">
+                                 <object type="image/svg+xml" data="img/icon/viber.svg">
+                                 </object>
+                              </a>
+                           </div>
+                           <button data-type="diagonal_swipe_left" class="btn">
+                              ДІЗНАТИСЯ ПРО НАС БІЛЬШЕ
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid building" >
+         <div class="container">
+            <div class="row">
+               <h2 class="title wow fadeInRight" data-wow-duration="2s" data-wow-offset="300">Що Ви можете побудувати<br>
+                  з металоконструкцій?
+               </h2>
+               <div class="col-xl-3 pl-0">
+                  <span>
+                  Металоконструкції - це ефективне
+                  рішення для будь-якого сегменту<br>
+                  бізнесу.
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="list col-12 p-0">
+            <div class="row">
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site//img-3.jpg">
+                  <span>Багатоквартирні будинки</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-2.jpg">
+                  <span>приватні будинки</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img.jpg">
+                  <span>торгові центри</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-1.jpg">
+                  <span>магазини</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-7.jpg">
+                  <span>офісні будівлі</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-6.jpg">
+                  <span>ресторани</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-4.jpg">
+                  <span>спортивні споруди</span>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/img-5.jpg">
+                  <span>медичні центри</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid works ">
+         <div class="container">
+            <div class="row">
+               <h2 class="title wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">За час роботи ми реалізували<br>
+                  більше 250 проектів
+               </h2>
+               <div class="col-xl-3 col-12 p-0">
+                  <span>Незалежно від ступеня складності
+                  задання ми знайдемо для неї просте
+                  і функціональне рішення</span>
+               </div>
+               <div class="col-xl-3 col-12 p-0">
+                  <span>Такий підхід до роботи дозволив нам
+                  завоювати довіру і повагу своїх
+                  клієнтів з усієї України</span>
+               </div>
+            </div>
+         </div>
+         <div class="list col-12 p-0">
+            <section class="works-slide slider d-md-none d-block">
+               <div class="item">
+                  <a href="#" class="info">
+                  <img alt="" class="img-fluid" src="img/site/IMG 1.jpg">
+                  Автосалон
+                  “Peugeot”
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="info">
+                  <img alt="" class="img-fluid" src="img/site/IMG 3.jpg">
+                  Автосалон
+                  “Peugeot”
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="info">
+                  <img alt="" class="img-fluid" src="img/site/IMG 2.jpg">
+                  Автосалон
+                  “Peugeot”
+                  </a>
+               </div>
+               <div class="item">
+                  <a href="#" class="info">
+                  <img alt="" class="img-fluid" src="img/site/IMG 4.jpg">
+                  Автосалон
+                  “Peugeot”
+                  </a>
+               </div>
+            </section>
+            <div class="row d-md-flex d-none">
+               <div class="item col-xl-3 col-6 wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                  <div class="view view-first">
+                     <img alt="" class="img-fluid" src="img/site/IMG 1.jpg">
+                     <div class="mask">
+                        <a href="#" class="info">
+                        <i class="fal fa-eye"></i>
+                        Автосалон
+                        “Peugeot”</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                  <div class="view view-first">
+                     <img alt="" class="img-fluid" src="img/site/IMG 3.jpg">
+                     <div class="mask">
+                        <a href="#" class="info">
+                        <i class="fal fa-eye"></i>
+                        Автосалон
+                        “Peugeot”</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                  <div class="view view-first">
+                     <img alt="" class="img-fluid" src="img/site/IMG 2.jpg">
+                     <div class="mask">
+                        <a href="#" class="info">
+                        <i class="fal fa-eye"></i>
+                        Автосалон
+                        “Peugeot”</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="item col-xl-3 col-6 wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                  <div class="view view-first">
+                     <img alt="" class="img-fluid" src="img/site/IMG 4.jpg">
+                     <div class="mask">
+                        <a href="#" class="info">
+                        <i class="fal fa-eye"></i>
+                        Автосалон
+                        “Peugeot”</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button data-type="diagonal_swipe_leftin" class="btn">
+            <a href="">ПЕРЕГЛЯНУТИ БІЛЬШЕ ПРОЕКТІВ</a>
+            </button>  
+         </div>
+      </div>
+      <div class="container-fluid partners">
+         <div class="container ">
+            <div class="row">
+               <h2 class="title wow fadeInRight" data-wow-duration="2s" data-wow-offset="300"">ПАРТНЕРСЬКА<br>
+                  <span>ПРОГРАМА</span>
+               </h2>
+               <div class="col-xl-4 col-12 pl-0">
+                  <span>Ми розробили взаємовигідну бізне-модель,
+                  яка включає сучасні сервіси, широку складську
+                  програму, вигідні умови для ваших партнерів.</span>
+               </div>
+
+                  <section class="regular slider col-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="300"">
+                     <div>
+                        <img alt="" src="img/slide/Layer_2.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_3.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_4.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_5.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_6.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_7.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_8.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_9.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_2.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_3.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_4.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_5.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_6.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_7.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_8.png">
+                     </div>
+                     <div>
+                        <img alt="" src="img/slide/Layer_9.png">
+                     </div>
+                  </section>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid certificates ">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-12">
+                  <h2 class="title wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">
+                     Будь впевнений
+                     в надійності
+                     об’єкту та
+                     працівників
+                  </h2>
+                  <span>
+                  Якість матеріалів відповідають
+                  ДСТУ та міжнародним стандартам
+                  ISO, DIN, EN.
+                  </span>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-4 d-md-flex d-none wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/Diplom-1.png">
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-4 d-md-flex d-none wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/Diplom-1.png"> 
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-4 d-md-flex d-none wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s" data-wow-offset="300">
+                  <img alt="" class="img-fluid" src="img/site/Diplom-1.png">
+               </div>
+            </div>
+            <section class="certificates-slide slider col-12 p-0 d-md-none d-block">
+                <div class="item">
+                    <img alt="" class="img-fluid" src="img/site/Diplom-1.png">
+                 </div>
+                 <div class="item">
+                    <img alt="" class="img-fluid" src="img/site/Diplom-1.png"> 
+                 </div>
+                 <div class="item">
+                    <img alt="" class="img-fluid" src="img/site/Diplom-1.png">
+                 </div>
+               </section>
+         </div>
+      </div>
+      <div class="container-fluid news " >
+         <div class="container">
+            <div class="row">
+               <h2 class="title wow fadeInLeft" data-wow-duration="2s" data-wow-offset="300">НОВИНИ</h2>
+               <div class="col-3 d-md-flex d-none read">
+                  <a class="readmore" href="">
+                  Більше новин
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="list-news ">
+            <section class="news-slide slider d-md-none d-block">
+                <div class="item">
+                    <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+                    <a href="">Сучасні будівлі важко уявити без алюмінієвих
+                    конструкцій</a>
+                    <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                       широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                       ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                       сучасний вигляд та роблять їх більш довговічними.
+                    </p>
+                 </div>
+                 <div class="item">
+                    <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+                    <a href="">Сучасні будівлі важко уявити без алюмінієвих
+                    конструкцій</a>
+                    <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                       широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                       ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                       сучасний вигляд та роблять їх більш довговічними.
+                    </p>
+                 </div>
+                 <div class="item">
+                    <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+                    <a href="">Сучасні будівлі важко уявити без алюмінієвих
+                    конструкцій</a>
+                    <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                       широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                       ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                       сучасний вигляд та роблять їх більш довговічними.
+                    </p>
+                 </div>
+            </section>
+         </div>
+         <div class="row list d-md-flex d-none ">
+            <div class="col-xl-4 col-lg-4 col-md-4 item wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+               <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+               <a href="">Сучасні будівлі важко уявити без алюмінієвих
+               конструкцій</a>
+               <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                  широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                  ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                  сучасний вигляд та роблять їх більш довговічними.
+               </p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 item wow fadeInDown" data-wow-duration="2s" data-wow-offset="300">
+               <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+               <a href="">Сучасні будівлі важко уявити без алюмінієвих
+               конструкцій</a>
+               <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                  широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                  ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                  сучасний вигляд та роблять їх більш довговічними.
+               </p>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 item wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+               <img alt="" src="img/site/Layer_11.png" class="img-fluid">
+               <a href="">Сучасні будівлі важко уявити без алюмінієвих
+               конструкцій</a>
+               <p>Завдяки своїй легкості, міцності та надійності, світлопрозорі конструкції
+                  широко використовуються при виготовлені вітрин, зимових садів, зенітних
+                  ліхтарів, вікон, балконів та лоджій, а вентильовані фасади надають будівлям
+                  сучасний вигляд та роблять їх більш довговічними.
+               </p>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="logo col-xl-3 col-lg-3 p-0">
+                  <img class="img-fluid" alt="" src="img/logo.png">
+               </div>
+               <div class="form col-xl-6 col-lg-6">
+                  <h3>ЗАЛИШИТИ ЗАПИТАННЯ</h3>
+                  <form>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <div class="form-group">
+                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Представтесь будь-ласка *">
+                           </div>
+                           <div class="form-group ">
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="+38 (ххх) ххх-хх-хх *">
+                           </div>
+                           <div class="form-group ">
+                              <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Mail *">
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="form-group ">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Що Вас цікавить?" rows="3"></textarea>
+                           </div>
+                           <button type="submit" data-type="diagonal_swipe_leftin" class="btn  ">ОТРИМАТИ КОНСУЛЬТАЦІЮ</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="info col-xl-3 col-lg-3">
+                  <h3>ЗВ’ЯЗОК З НАМИ</h3>
+                  <ul class="list-unstyled">
+                     <li><span><img alt="" src="img/icon/Adres.png" ></span> Україна, Рівненська обл., м. Рівне
+                        вул. Гагаріна, 16, офіс 304
+                     </li>
+                     <li>
+                        <span><img alt="" src="img/icon/tel.png"></span>
+                        <ul class="list-unstyled phone">
+                           <li><a href="tel:+38 (0362) 46-03-03">+38 (0362) 46-03-03</a></li>
+                           <li><a href="tel:+38 (098) 194-19-78">+38 (098) 194-19-78</a></li>
+                        </ul>
+                     </li>
+                     <li><span><img alt="" src="img/icon/Mail.png"></span>
+                        y.borovets@star-svit.com.ua
+                     </li>
+                     <li class="social">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="row">
+               <div class="copyright col-xl-12">
+                  <p>
+                     © 2020 Стар-Світ. Всі права захищено.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  ...
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js" ></script>
+      <script type="text/javascript" src="js/popper.min.js" ></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/comon.js"></script>
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="js/jquery.spincrement.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/SmoothScroll.js"></script>
+      <script>
+         new WOW().init();
+         </script>
+      <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+         $(document).on('ready', function() {
+             $(".regular").slick({
+             dots: false,
+             infinite: true,
+             prevArrow: '<button id="prev" type="button" class="btn-juliet"><img src="/img/icon/angle-left.svg"></button>',
+             nextArrow: '<button id="next" type="button" class="btn-juliet"><img src="/img/icon/angle-right.svg"></button>',
+             slidesToShow: 8,
+             slidesToScroll: 1,
+             responsive: [
+                 {
+                 breakpoint: 1679,
+                 settings: {
+                     slidesToShow: 6,
+                     slidesToScroll: 3,
+                     infinite: true,
+                 }
+                 },
+                 {
+                 breakpoint: 1200,
+                 settings: {
+                     slidesToShow: 5,
+                     slidesToScroll: 2,
+                     arrows: false,
+                     
+                 }
+                 },
+                 {
+                 breakpoint: 992,
+                 settings: {
+                     slidesToShow: 4,
+                     slidesToScroll: 2,
+                     arrows: false,
+                     
+                 }
+                 },
+                 {
+                 breakpoint: 737,
+                 settings: {
+                     slidesToShow: 2,
+                     slidesToScroll: 1,
+                     arrows: false,
+                 }
+                 }
+                 // You can unslick at a given breakpoint now by adding:
+                 // settings: "unslick"
+                 // instead of a settings object
+             ]
+             });
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).on('ready', function() {
+             $(".works-slide").slick({
+             dots: false,
+             arrows: false,
+             infinite: true,
+             slidesToShow: 1.1,
+             slidesToScroll: 1.1
+         
+             });
+         });
+      </script>
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+                $(".news-slide").slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).on('ready', function() {
+                $(".certificates-slide").slick({
+                dots: false,
+                arrows: false,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            
+                });
+            });
+        </script>
+   </body>
+</html>

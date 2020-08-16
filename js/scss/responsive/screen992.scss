@@ -1,0 +1,263 @@
+h2.title{
+    color: #1f3345;
+    font-size: 30px;
+    font-weight: 700;
+    span{
+        color: #ed6508;
+        font-size: 30px;
+    }
+}
+/*header*/
+header{
+    .container{
+        .row{
+            .header_top{
+                .navigation{
+                    .navbar{
+                        #navbarContent{
+                            .navbar-nav{
+                                .nav-item{
+                                   padding: 0px;
+                                   .nav-link{
+                                       font-size: 15px;
+                                   }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}        
+/*header*/
+.section-1{
+    background-size: cover;
+    padding-top: 18px;
+    .container-fluid{
+        .container{
+            .row{
+                .baner_content{
+                    max-width: 100%;
+                    text-align: center;
+                    margin-left: 0px;
+                    button{
+                        margin: 0 auto;
+                    }
+                }
+            } 
+        } 
+    } 
+} 
+.section-category{
+    background-size: cover;
+    padding-top: 18px;
+    .container-fluid{
+        .container{
+            .row{
+                .baner_content{
+                    max-width: 100%;
+                    text-align: center;
+                    margin-left: 0px;
+                    
+                    button{
+                        margin: 0 auto;
+                    }
+                }
+            } 
+        } 
+    } 
+}
+/*about-us*/
+.about-us{
+    padding: 160px 15px 0px;
+    .row{
+        .data{
+            .total{
+                padding: 0 15px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                p{
+                    margin: 0px;
+                    padding-left: 15px;
+                }           
+            }
+            .item{
+                padding-left: 15px!important;
+                h5{
+                    width: 100%;
+                }
+            }
+        } 
+    } 
+} 
+/*about-us*/
+/*advantages*/
+.advantages{
+    padding: 170px 15px;
+    clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+    .info{
+        .item{
+            max-width: 100%;
+            margin-right: 0px;
+        }
+    } 
+    .video{
+        min-height: 400px;
+        padding-left: 0px!important;
+        iframe{
+            width: 100%;
+            height: 400px;
+        }
+        .share{
+            max-width: 100%!important;
+        }
+    }
+}
+/*advantages*/
+.building{
+    .row{
+        .title{
+            margin-bottom: 20px;
+        }
+        span{
+            padding-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+.works{
+    .row{
+        .title{
+            margin-bottom: 20px;
+        }
+        span{
+            padding-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+}
+.partners{
+    .row{
+        .title{
+            margin-bottom: 20px;
+        }
+        span{
+            padding-left: 0px;
+        }
+    } 
+}
+.certificates{
+    .row{
+        div{
+            align-items: baseline;
+            span{
+                margin-bottom: 10px;
+            }
+        } 
+    } 
+} 
+/*footer*/
+footer{
+    .form{
+        form{
+            button{
+                padding: 0px;
+            }
+        } 
+    }
+    .info{
+        ul{
+            li{
+                span{
+                    padding-right: 40px;
+                } 
+            } 
+        } 
+    } 
+} 
+/*footer*/
+.about-us-full{
+    padding: 60px 15px;
+    .title{
+        margin-bottom: 30px;
+    }
+    .about-slide{
+        .item .title{
+            margin-bottom: 30px;
+        }
+    } 
+}
+.team {
+    padding: 60px 15px;
+    .title{
+        margin-bottom:60px ;
+    }
+}
+.map{
+    padding: 60px 0px;
+    .container{
+        .row{
+            .catalog-work{
+                .title{
+                    margin-bottom: 30px;
+                }
+                p{
+                    margin-bottom: 30px;
+                }
+            } 
+        } 
+    } 
+}
+.reviews {
+    padding: 60px 15px;
+    .row{
+        .list-reviews{
+            margin-top: 60px;
+        }
+    } 
+}
+.about .certificates {
+    padding: 230px 15px 150px;
+}
+.profit {
+    padding: 60px 15px;
+    .row{
+        .title{
+            margin-bottom: 30px;
+        }
+    } 
+}
+.constuction{
+    padding: 60px 15px;
+    .container{
+        .row{
+            .title{
+                margin-bottom: 30px;
+            }
+            .list{
+                .item{
+                    .name{
+                        padding: 15px 30px;
+                    }
+                }
+            }
+        } 
+    } 
+}
+.conditions {
+    padding: 60px 15px;
+}
+.recall-me{
+    padding: 60px 15px;
+    .list{
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    .form-recall{
+        margin-left: 0px;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,510 @@
+/*global*/
+h2.title{
+    font-size: 22px;
+}
+#sidebarMenu{
+    width: 100vw;
+}
+/*global*/
+/*header*/
+header{
+    padding: 5px 0px;
+    opacity: 1;
+    .mobile{
+        .logo{ 
+            img{
+                height: 58px;
+            }                
+        }
+        .info{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .contact{
+                .nav{
+                    #sidebarMenu{
+                        padding: 15px;
+                        ul{
+                            li{
+                                a{
+                                    color: #ffffff;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                        .recall{
+                            button{
+                                width: 100%;
+                                border: 1px solid #ffffff;
+                                color: #ffffff;
+                                font-size: 14px;
+                                font-weight: 400;
+                                border-radius: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .language{
+                ul{
+                    display: flex;
+                    margin-bottom: 0px;
+                    li:nth-child(1){
+                        padding-right: 12px;
+                    }
+                    .active{
+                        color: #ed6508;
+                    }
+                    li{
+                        a{
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+/*header*/
+/*footer*/
+footer::before {
+    background: url(/img/site/ornament.png) #ffffff;
+    content: '';
+    position: absolute;
+    top: -48px;
+    width: 100%;
+    height: 48px;
+    background-size: cover;
+}
+footer{
+    .logo{
+        order: 3;
+        justify-content: center;
+        margin-top: 80px;
+        display: flex;
+    }
+    .form{
+        order: 2;
+        h3{
+            text-align: center;
+        }
+    }
+    .info{
+        order: 1;
+        h3{
+            text-align: center;
+        }
+        ul{
+            li{
+                span{
+                    padding-right: 44px;
+                }
+            }
+            .social{
+                padding-left: 0px;
+                justify-content: center;
+                a:first-child{
+                    padding-left: 0px;
+                }
+                a{
+
+                }
+            }
+        }
+    }
+}
+/*footer*/
+/*section-1*/
+.section-1::after {
+    background: url(/img/site/ornament.png) #ffffff;
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 48px;
+    background-size: cover;
+    display: none;
+}
+.section-1{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    .container-fluid{
+        .container{
+            .baner_content{
+                padding: 40px 0px 0px;
+                margin-left: 0px;
+                height: auto;
+                h2{
+                    font-size: 34px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 16px;
+                    display: none;
+                }
+                button{
+                    width: 100%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.section-category::after {
+    background: url(/img/site/ornament.png) #ffffff;
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 48px;
+    background-size: cover;
+    display: none;
+}
+.section-category{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    .container-fluid{
+        .container{
+            .row{
+                .baner_content{
+                    padding: 40px 0px 0px;
+                    margin-left: 0px;
+                    height: auto;
+                    h2{
+                        font-size: 34px;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 16px;
+                        display: none;
+                    }
+                    button{
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+/*section-1*/
+/*about-us*/
+.about-us{
+    padding: 30px 15px 0px;
+    .row{
+        .title{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .data{
+            .total{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding-left: 15px;
+                flex-direction: column;
+                align-items: center;
+                p{
+                    text-align: center;
+                }
+            }
+            .item{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 15px!important;
+                a{
+                    h5{
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+/*about-us*/
+/*advantages*/
+.advantages{
+    padding: 80px 15px;
+    clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    .info{
+        .item{
+            max-width: 100%;
+            margin-right: 0px;
+        }
+    }
+    .video{
+        
+        width: 100%;
+        padding: 0px!important;
+        iframe{
+            width: 100%;
+        }
+        .social-share{
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .share{
+            flex-direction: column;
+        }
+    }
+}
+
+/*advantages*/
+/*building*/
+.building{
+    padding: 30px 15px;
+    .row{
+        align-items: baseline;
+        .title{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        span{
+            font-size: 14px;
+            padding-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+    .list{
+        .item{
+            margin-bottom: 0px;
+            span{
+                font-size: 13px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+/*building*/
+/*works*/
+.works{
+    padding: 30px 15px;
+    .row{
+        text-align: center;
+        .title{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        span{
+            padding-left: 0px;
+            margin-bottom: 20px;
+        }
+    }
+    .list{
+        .works-slide{
+            .item{
+                padding: 15px;
+                a{
+                    color: #ed6508;
+                    font-size: 13px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    img{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        button{
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+}
+/*works*/
+/*partners*/
+.partners{
+    padding: 30px 15px;
+    .row{
+        text-align: center;
+        .title{
+            width: 100%;
+            text-align: center;
+            span{
+                font-size: 22px;
+                
+            }
+        }
+        span{
+            font-size: 14px;
+            padding-left: 15px;
+        }
+    }
+}
+/*partners*/
+/*news*/
+.news{
+    padding: 30px 15px;
+    .row{
+        .title{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .list-news{
+        .news-slide{
+            .item{
+                img{
+                margin-bottom: 10px;
+                }
+                a{
+                    color: #ed6508;
+                    font-size: 13px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                p{
+                    color: #6a6a6a;
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+/*news*/
+/*certificates*/
+.certificates{
+    padding: 60px 15px;
+    clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    .certificates-slide{
+        margin-top: 50px;
+    }
+}
+/*certificates*/
+.about-us-full {
+    padding: 30px 15px;
+    .title {
+        margin-bottom: 30px;
+    }
+    .arrows {
+        margin-top: 20px;
+    }
+    .history{
+        height: 400px;
+    }
+    .about-slide{
+        margin-left: 0px;
+        margin-top: 20px;
+        .item{
+            .title{
+                margin-bottom: 30px;
+            }
+            .total{
+                .number{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+}
+.team {
+    padding: 30px 15px;
+    .title {
+        margin-bottom: 30px;
+    }
+    .item{
+        padding: 0px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.map {
+    padding: 30px 0px;
+    .container{
+        .row{
+            .map-work{
+                margin-bottom: 30px;
+            }
+            .catalog-work{
+                padding-left: 15px;
+                .title{
+                    margin-bottom: 30px;
+                }
+                p{
+                    margin-bottom: 30px;
+                }
+            }
+        }         
+    } 
+}
+.reviews{
+    padding: 30px 15px;
+    .row{
+        .list-reviews{
+            margin-top: 30px;
+        }
+    } 
+}
+.about{
+    footer{
+        margin-top: 48px;
+    }
+}
+.profit{
+    padding: 30px 15px;
+    .row{
+        .title {
+            margin-bottom: 30px;
+        }
+        .info{
+            padding: 0px;
+            .item{
+                padding: 0px;
+            }
+        }
+    }
+}
+.constuction{
+    padding: 30px 15px;
+    .container{
+        .row{
+            .title {
+                margin-bottom: 30px;
+            }
+            .list{
+                .item{
+                    .name{
+                        padding: 15px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.conditions{
+    padding: 30px 15px;
+    .row{
+        .type{
+            margin-bottom: 20px;
+        }
+        .description{
+            padding: 0px;
+            .title{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+.recall-me{
+    padding: 30px 15px;
+    .form-recall{
+        margin-left: 0px;
+    } 
+}

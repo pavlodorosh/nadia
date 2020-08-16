@@ -1,0 +1,264 @@
+/* TYPOGRAPHY */
+html, body {
+  color: #555;
+  font-family: "PT Sans", sans-serif;
+}
+a {
+  @include transition(all 0.2s);
+  &:hover {
+    // color: #000;
+  }
+}
+h1 {
+  color: #0c99c8;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+h2 {
+  color: #0c99c8;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+h3 {
+  color: #003663;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 0 0 1em;
+  font-family: 'Open Sans', sans-serif;
+  strong {
+    font-weight: 400;
+  }
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0 0 1em;
+  color: #0c99c8;
+  @include breakpoint($mobile) {
+    font-size: 1.5em;
+  }
+  @include breakpoint($tablet) {
+    font-size: 1.5em;
+  }
+}
+h5 {
+  color: #9cbd12;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+h6 {
+    color: #0c99c8;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 1em;
+}
+p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.8em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em 0;
+}
+
+/* TYPOGRAPHY - LIST */
+ul {
+  padding: 0;
+  margin-top: 1.2em;
+  li {
+    list-style-image: url("../images/icon/arrow-green.png");
+    margin: 0px 0px 10px 18px;
+    color: #999393;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+
+
+/* ERROR MESSAGE */
+.error {
+  margin: 6em 0;
+  h1 {
+    color: #003663;
+    font-size: 6em;
+    font-weight: 700;
+    line-height: 0.7em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    color: #9cbd12;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* SOCIAL ICONS */
+a[href*="skype:nadiya-biz"] {
+  .fa-stack-2x {
+    color: #0094d5;
+  }
+}
+a[href*="ok.ru/"] {
+  .fa-stack-2x {
+    color: #f57d12;
+  }
+}
+a[href*="vk.com/"] {
+  .fa-stack-2x {
+    color: #436990;
+  }
+}
+a[href*="facebook.com/"] {
+  .fa-stack-2x {
+    color: #345394;
+  }
+}
+a[href*="plus.google.com/"] {
+  .fa-stack-2x {
+    color: #d64724;
+  }
+}
+
+
+/* ICONS FOR MENU */
+.navbar-default ul li.link-location a:before {
+  content: "\f041";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-car a:before {
+  content: "\f1b9";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-calendar a:before {
+  content: "\f073";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-bookmark a:before {
+  content: "\f097";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-camera a:before {
+  content: "\f030";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-camera a:before {
+  content: "\f030";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-comment a:before {
+  content: "\f075";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-envelope a:before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+.navbar-default ul li.link-newspaper a:before {
+  content: "\f1ea";
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+
+/* SIDEBAR */
+.sidebar {
+  h3 {
+    color: #0c99c8;
+    font-size: 24px;
+    margin-bottom: 1em;
+    font-weight: 600;
+  }
+  h4, h4 a {
+    color: #9cbd12;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 13px;
+    line-height: 1.6em;
+  }
+}
+
+
+/* TYPOGRAPHY - FOOTER */
+footer {
+  a {
+    color: #0c99c8;
+    &:hover {
+      color: #9cbd12;
+    }
+  }
+  h5 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 1em 0;
+  }
+  p {
+    color: #0c99c8;
+    font-size: 1em;
+    margin: 1em 0 0;
+    line-height: 1.8em;
+    font-weight: 400;
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+  }
+  li, li.fa {
+    display: block;
+    color: #0c99c8;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: inherit;
+    line-height: 1.8em;
+    font-style: italic;
+    margin: 0;
+    a {
+      font-size: 13px;
+      font-style: italic;
+      line-height: 2em;
+      @include breakpoint($mobile) {
+        font-size: 14px;
+        line-height: 1.8em;
+      }
+    }
+  }
+  .fa {
+    display: block;
+  }
+}

@@ -1,0 +1,136 @@
+h2.title {
+  color: #1f3345;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2.title span {
+  color: #ed6508;
+  font-size: 30px;
+}
+
+/*header*/
+header .container .row .header_top .navigation .navbar #navbarContent .navbar-nav .nav-item {
+  padding: 6px 16px;
+}
+
+/*header*/
+.section-1 .container-fluid .container .baner_content {
+  margin-left: 0px;
+  height: 380px;
+  bottom: 18%;
+}
+
+/*about-us*/
+.about-us .row .data .item {
+  padding-left: 15px !important;
+}
+
+/*about-us*/
+/*works*/
+.works .row {
+  -ms-flex-wrap: inherit;
+      flex-wrap: inherit;
+}
+
+.works .row span {
+  padding-left: 0px;
+}
+
+/*works*/
+/*advantages*/
+.advantages {
+  padding: 140px 0px;
+}
+
+.advantages .info .item {
+  max-width: auto;
+  margin-right: 0px;
+}
+
+/*advantages*/
+/*building*/
+.building .list .item {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.building .row span {
+  padding-left: 0px;
+}
+
+/*building*/
+/*partners*/
+.partners .row span {
+  padding-left: 0px;
+}
+
+/*partners*/
+/*profit*/
+.profit .title {
+  margin-bottom: 20px;
+}
+
+/*profit*/
+/*about-us-full*/
+.about-us-full {
+  padding: 60px 15px;
+}
+
+.about-us-full .title {
+  margin-bottom: 30px;
+}
+
+.about-us-full .about-slide .item .title {
+  margin-bottom: 20px;
+}
+
+/*about-us-full*/
+/*team*/
+.team {
+  padding: 60px 15px;
+}
+
+.team .title {
+  margin-bottom: 30px;
+}
+
+/*team*/
+/*profit*/
+.profit {
+  padding: 60px 15px;
+}
+
+.profit .row .title {
+  margin-bottom: 30px;
+}
+
+/*profit*/
+/*constuction*/
+.constuction {
+  padding: 60px 15px;
+}
+
+.constuction .container .row .title {
+  margin-bottom: 60px;
+}
+
+.constuction .container .row .list .item .name {
+  padding: 15px 30px;
+}
+
+/*constuction*/
+.profit .row .title {
+  margin-bottom: 60px;
+}
+
+.conditions {
+  padding: 60px 15px;
+  overflow: hidden;
+}
+
+.recall-me {
+  padding: 60px 15px;
+}
+/*# sourceMappingURL=screen1200.css.map */
