@@ -1,0 +1,420 @@
+body{
+    font-size: 15px;
+    color: #000000;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+/*header*/
+header{
+
+}
+header .header-top{
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(22, 15, 43, 0.15);
+}
+header .header-top .container{
+
+}
+header .header-top .container .box{
+    display: flex;
+    justify-content: space-between;
+}
+header .header-top .container .box .logo{
+
+}
+header .header-top .container .box .logo a{
+
+}
+header .header-top .container .box .logo a img{
+max-width: 263px;
+}
+header .header-top .container .box .call{
+
+}
+header .header-top .container .box .call button{
+    border-radius: 4px;
+    background-color: #e93e3a;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+}
+header .container{
+
+}
+
+header .container nav{
+    padding: .5rem 0rem;
+}
+header .container nav .nav-item{
+    
+}
+header .container nav .nav-item .nav-link{
+    color: #160f2b;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*content*/
+.content{ 
+    min-height: 515px;
+    background:url("/img/hero-img.jpg") no-repeat;
+    background-position: bottom;
+}
+.content .container{
+
+}
+.content .container .row{
+
+}
+.content .container .row .rezerv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 515px;
+}
+.content .container .row .rezerv .col-md-6{
+
+}
+.content .container .row .rezerv .col-md-6:nth-child(2){
+    display: flex;
+    justify-content: flex-end;
+}
+.content .container .row .rezerv .col-md-6 h1{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.content .container .row .rezerv .col-md-6 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv{
+    max-width: 385px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv .form-group{
+
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv .form-group .input-group{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv .form-group .input-group .input-group-addon{
+    position: absolute;
+    z-index: 9;
+    right: 16px;
+    color: #d0d0d0;
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv .form-group .input-group input{
+    padding: 22px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #676767;
+    opacity: 0.8;
+}
+.content .container .row .rezerv .col-md-6 .form-rezerv button{
+    border-radius: 4px;
+    background-color: #e93e3a;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+}
+/*form recall*/
+#recall{
+
+}
+#recall .modal-dialog{
+    max-width: 330px;
+}
+#recall .modal-dialog .modal-content{
+
+}
+#recall .modal-dialog .modal-content .modal-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 0px;
+}
+#recall .modal-dialog .modal-content .modal-header h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+#recall .modal-dialog .modal-content .modal-header p{
+    font-size: 16px;
+}
+#recall .modal-dialog .modal-content .modal-body{
+
+}
+#recall .modal-dialog .modal-content .modal-body .input-group{
+    align-items: center;
+    margin-bottom: 10px;
+}
+#recall .modal-dialog .modal-content .modal-body .input-group .input-group-addon{
+    position: absolute;
+    z-index: 9;
+    right: 16px;
+    color: #d0d0d0;
+}
+#recall .modal-dialog .modal-content .modal-body .input-group input{
+    padding: 22px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #676767;
+    opacity: 0.8;
+    
+}
+#recall .modal-dialog .modal-content .modal-footer{
+    border: none;
+}
+#recall .modal-dialog .modal-content .modal-footer button{
+    border-radius: 4px;
+    background-color: #e93e3a;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+}
+/*cotact_number*/
+.cotact_number{
+    
+}
+.cotact_number .btn-group{
+    width: 100%;
+    padding: 15px 0px;
+}
+.cotact_number .btn-group .btn {
+   outline: none;
+   box-shadow: none;
+   color: #ffffff;
+   padding: 0px;
+   text-align: left;
+}
+.cotact_number .btn-group .btn:nth-child(2){
+    text-align: right;
+}
+.cotact_number .btn-group .btn a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.cotact_number .btn-group .btn a img{
+    padding-right: 10px;
+}
+.cotact_number .dropdown-menu{
+    transform: translate3d(0px, 64px, 0px)!important;
+    width: 100%;
+    padding: 15px;
+}
+.cotact_number .dropdown-menu h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+.cotact_number .dropdown-menu ul{
+    border-bottom: 1px solid #d0d0d0;
+}
+.cotact_number .dropdown-menu ul li{
+    margin-bottom: 10px;
+}
+.cotact_number .dropdown-menu ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.cotact_number .dropdown-menu ul li a img{
+    margin-right: 10px;
+}
+/*footer*/
+footer{
+    background-color: #160f2b;   
+    color: #ffffff;
+    padding-top: 50px;
+}
+footer .container{
+
+}
+footer .container .row{
+
+}
+footer .container .row>div{
+
+}
+footer .container .row>div h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+footer .container .row>div .phone_ua{
+    padding-top: 0px;
+}
+footer .container .row>div h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 51px;
+}
+footer .container .row>div p{
+    font-size: 15px;
+    line-height: 22px;
+}
+footer .container .row>div ul{
+    font-size: 14px;
+    line-height: 22px;
+}
+footer .container .row>div ul li{
+    margin-bottom: 10px;
+}
+footer .container .row>div ul li svg{
+    margin-right: 10px;
+    width: 18px;
+    text-align: center;
+}
+footer .container .row>div ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer .container .row>div ul li a img{
+    margin-right: 10px;
+}
+footer .copyright{
+    border-top: 1px solid #e8e7ea;
+} 
+footer .copyright .row{
+
+}
+footer .copyright .row span{
+    padding: 15px 0px;
+}
+footer .copyright .row span:nth-child(2){
+    text-align: right;
+}
+footer .copyright .row span a{
+    text-decoration: underline;
+    color: #e93e3a;
+}
+
+
+/*rwsponsive*/
+/* Экстрамалые девайсы («портретные телефоны», < 576px) */
+
+@media (max-width: 575.98px) {
+/*mobile nav*/
+header .container nav .navbar-brand{
+
+}
+header .container nav .navbar-toggler{
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+header .container nav .navbar-brand img{
+    max-width: 210px;
+}
+header .container nav .navbar-collapse{
+    padding: 15px 0px;
+}
+header .container nav .nav-item {
+    border-top: 1px solid #e8e7ea;
+}
+header .container nav .navbar-collapse .call button{
+    border-radius: 4px;
+    background-color: #e93e3a;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    width: 100%;
+}
+header .container nav .navbar-collapse .social{
+    border-top: 1px solid #e8e7ea;
+    padding: 1rem 0rem;
+}
+header .container nav .navbar-collapse .social a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #160f2b;
+    
+}
+header .container nav .navbar-collapse .social a span{
+    padding-left: 10px;
+}
+/*mobile nav*/
+
+
+.content .container .row .rezerv {
+    flex-direction: column-reverse;
+}
+footer .container .row>div h5 {
+
+    padding-top: 0px;
+}
+.content .container .row .rezerv .col-md-6 {
+    padding-top: 10px;
+}
+footer .copyright .row span:nth-child(2) {
+    text-align: left;
+}
+footer .copyright .row span {
+    padding: 5px 15px;
+}
+
+footer .copyright .row {
+    flex-direction: column-reverse;
+}
+}
+/* Малые девайсы («ландшафтные», >= 575px) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    footer .container .row>div h5 {
+
+        padding-top: 0px;
+    }
+    .content .container .row .rezerv .col-md-6 .form-rezerv{
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .content .container .row .rezerv .col-md-6 {
+        padding-top: 20px;
+    }
+    footer .copyright .row span:nth-child(2) {
+        text-align: left;
+    }
+    footer .copyright .row span {
+        padding: 5px 15px;
+    }
+
+    footer .copyright .row {
+    flex-direction: column-reverse;
+    }
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    footer .container .row>div h5{
+        padding-top: 0px;
+    }
+}
+
+/* Большие девайсы (большие десктопы, >= 992px) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) 
+  {}
+
+
+/* Большие девайсы (большие десктопы, >= 1200px) */
+
+@media (min-width: 1200px) {
+
+}
