@@ -1,0 +1,30 @@
+/*!
+ *  Custom styles
+ */
+
+// @import "compass/reset";
+@import "compass/css3";
+
+
+$mobile: 767px;
+$tablet: 992px;
+$brand-yellow: #FFF40D;
+
+
+// Sass Breakpoint Mixin
+@mixin breakpoint($point) {
+	@if $point == medium {
+		@media (min-width: 30em) { @content; }
+	}
+	@else if $point == large {
+		@media (min-width: 50em) { @content; }
+	}
+	@else if $point { // allows custom breakpoints
+		@media (min-width: $point) { @content; }
+	}
+}
+
+
+@import "grid";
+@import "typography";
+@import "form";

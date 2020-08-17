@@ -1,7 +1,7 @@
 <?php
    $target = get_template_directory_uri(); ?>
 
-    <footer>
+    <footer id="footer_contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 order-2 order-sm-1">
@@ -14,7 +14,7 @@
                     </p>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-map-marker-alt"></i>Україна, м. Рівне, вул. Київська 40 </li>
-                        <li><a href="mailto:info@nadiya.biz"><i class="fas fa-envelope"></i>info@nadiya.biz</a></li>
+                         <li><a href="mailto:info@nadiya.biz"> <!--<i class="fas fa-envelope"></i>--> info@nadiya.biz</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-sm-6 orde-1 order-sm-1">
@@ -70,11 +70,11 @@
         </div>
         <div class="modal-body">
             <div class="input-group">
-                <span class="input-group-addon"><i class="fas fa-user"></i></span>
+                <!-- <span class="input-group-addon"><i class="fas fa-user"></i></span> -->
                 <input class="form-control form-control-sm" type="text" placeholder="Ваше ім’я">
             </div>
             <div class="input-group">
-                <span class="input-group-addon"><i class="fas fa-phone"></i></span>
+                <!-- <span class="input-group-addon"><i class="fas fa-phone"></i></span> -->
                 <input class="form-control form-control-sm" type="text" placeholder="Ваш номер телефону*">
             </div>
         </div>
@@ -107,6 +107,7 @@ if( is_front_page() ) { ?>
 
   <!-- <script type="text/javascript" src="<?php echo $target; ?>/js/bootstrap-4.4.1.js"></script>
   <script type="text/javascript" src="<?php echo $target; ?>/js/popper-1.16.0.min.js"></script> -->
+  <script type="text/javascript" src="<?php echo $target; ?>/js/bootstrap-4.4.1.js"></script>
   <script type="text/javascript" src="<?php echo $target; ?>/jsnew/comon.js"></script>
 
 

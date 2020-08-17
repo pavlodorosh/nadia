@@ -39,6 +39,7 @@
   </script>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight|PT+Sans:400,700|Open+Sans:400,300,600,700,800" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo $target; ?>/bootstrap/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="<?php echo $target; ?>/cssnew/style.css"/>
 
@@ -81,30 +82,33 @@
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#recall">
                                 Замовити дзвінок
                             </button>
-                    </div>
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/" title="Home">Головна</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Розклад рейсів</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Новини</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" >Про нас</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" >Контакти</a>
-                        </li>
-                      </ul>
-                      <div class="social">
-                        <a href="https://www.facebook.com/" target="blank">
-                            <img src="<?php echo $target; ?>/img/facebook-app-logo.png" title="Facebook" alt="Facebook">
-                            <span class="call d-sm-none">Підписатись на Facebook</span>
-                        </a>
-                    </div>
+                        </div>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/" title="Home">Головна</a>
+                            </li>
+                            <li class="nav-item">
+                                <?php   $ID=9822;	?>
+                                <a href="<?php echo get_permalink($ID); ?>" class="nav-link"><?php echo get_the_title($ID); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <?php   $ID=9825;	?>
+                                <a href="<?php echo get_permalink($ID); ?>" class="nav-link"><?php echo get_the_title($ID); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <?php   $ID=9820;	?>
+                                <a href="<?php echo get_permalink($ID); ?>" class="nav-link"><?php echo get_the_title($ID); ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer_contact" >Контакти</a>
+                            </li>
+                        </ul>
+                        <div class="social">
+                            <a href="https://www.facebook.com/" target="blank">
+                                <img src="<?php echo $target; ?>/img/facebook-app-logo.png" title="Facebook" alt="Facebook">
+                                <span class="call d-sm-none">Підписатись на Facebook</span>
+                            </a>
+                        </div>
                     </div>
                   </nav>
             </div>

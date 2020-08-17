@@ -119,4 +119,83 @@ add_action( 'after_setup_theme', 'wpt_setup' );
 
 require_once('wp_bootstrap_navwalker.php');
 
-?>
+
+function woocommerce_button_proceed_to_checkout() { ?>
+ <a href="<?php echo esc_url( wc_get_checkout_url() ); ?>" class="checkout-button button alt wc-forward">
+ Оплатити квитки
+ </a>
+ <?php
+}
+
+
+add_filter( 'gettext', 'change_cart_totals_text', 20, 3 );
+function change_cart_totals_text( $translated, $text, $domain ) {
+    if( is_cart() && $translated == 'Підсумки кошика' ){
+        $translated = __('Вартість');
+    }
+    return $translated;
+}
+
+function change_update_cart_text( $translated, $text, $domain ) {
+    if( is_cart() && $translated == 'Оновити кошик' ){
+        $translated = 'Оновити';
+    }
+    return $translated;
+}
+add_filter( 'gettext', 'change_update_cart_text', 20, 3 );
+
+//woocommerce
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+add_theme_support( 'woocommerce' );
+}
+
+//грн.
+function add_my_currency( $currencies ) {
+     $currencies['UAH'] = __( 'Українська гривня', 'woocommerce' );
+     return $currencies;
+}
+add_filter('woocommerce_currency_symbol', 'add_my_currency_symbol', 10, 2);
+function add_my_currency_symbol( $currency_symbol, $currency ) {
+     switch( $currency ) {
+         case 'UAH': $currency_symbol = 'грн'; break;
+     }
+     return $currency_symbol;
+}
+
+//checkout
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_remove_woo_checkout_fields' );
+function custom_remove_woo_checkout_fields( $fields ) {
+    // remove billing fields
+    // unset($fields['billing']['billing_last_name']);
+	  unset($fields['billing']['billing_address_2']);
+    unset($fields['billing']['billing_company']);
+    unset($fields['billing']['billing_city']);
+    unset($fields['billing']['billing_postcode']);
+    unset($fields['billing']['billing_country']);
+    unset($fields['billing']['billing_state']);
+    // unset($fields['billing']['billing_email']);
+    unset($fields['billing']['billing_address_1']);
+    unset($fields['order']['order_comments']);
+    return $fields;
+}
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_rename_wc_checkout_fields' );
+
+// Change placeholder and label text
+function custom_rename_wc_checkout_fields( $fields ) {
+  $name='Ім\'я';
+	$fields['billing']['billing_first_name']['placeholder'] = $name;
+	$fields['billing']['billing_last_name']['placeholder'] = "Прізвіще";
+	$fields['billing']['billing_phone']['placeholder'] = 'Телефон';
+	$fields['billing']['billing_email']['placeholder'] = 'e-mail';
+
+	return $fields;
+}
+
+add_filter( 'woocommerce_billing_fields', 'sv_unrequire_wc_email_field' );
+function sv_unrequire_wc_email_field( $fields ) {
+    $fields['billing_email']['required'] = false;
+    return $fields;
+}
